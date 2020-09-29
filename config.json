@@ -1,0 +1,12 @@
+{
+  "development": {
+    "port": 3000,
+    "database": {
+      "user": "hightech",
+      "password": "fabricaonline",
+      "protocol": "mongodb+srv",
+      "host": "cluster0.5be5g.mongodb.net",
+      "name": "fabrica-online-db"
+    }
+  }
+}
