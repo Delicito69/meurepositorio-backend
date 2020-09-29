@@ -41,7 +41,7 @@ class App {
       resp.send("Bem vindo 👍");
     });
 
-    this.app.listen(config.port, () => {
+    this.app.listen(process.env.PORT, () => {
       console.log(`API Fabrica Online rodando na porta ${config.port}...`);
     });
   }
